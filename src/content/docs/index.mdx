@@ -1,16 +1,22 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 三国志
+
+description: 探索《三国志》的世界。
+
 template: splash
+
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 阅读《三国志》。
+
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/cover.jpeg
+
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 阅读示例章节
+      link: /wei/
       icon: right-arrow
-    - text: Read the Starlight docs
+
+    - text: 查看更多资料
       link: https://starlight.astro.build
       icon: external
       variant: minimal
@@ -18,19 +24,24 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 下一步探索
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+
+<Card title="了解历史背景" icon="pencil">
+阅读《三国志》时，了解东汉末年到三国时期的历史背景能帮助你更好地理解人物与事件。
+</Card>
+
+<Card title="深入人物传记" icon="add-document">
+《三国志》中包含了大量名将与谋士的传记，例如刘备、曹操、孙权等。
+</Card>
+
+<Card title="研究战略与谋略" icon="setting">
+探索书中著名的战役与谋略，如赤壁之战、官渡之战等，了解智者如何影响战争走向。
+</Card>
+
+<Card title="阅读更多资料" icon="open-book">
+阅读更多关于《三国志》的研究与解读，加深对这本经典史书的理解。
+</Card>
+
 </CardGrid>
