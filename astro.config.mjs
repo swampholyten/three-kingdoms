@@ -16,10 +16,10 @@ export default defineConfig({
             label: "魏书",
             link: "/wei/",
             icon: "open-book",
-            items: Array.from({ length: 2 }, (_, i) => `wei/${i + 1}`),
+            items: Array.from({ length: 30 }, (_, i) => `wei/${i + 1}`),
             badge: {
-              text: "更新中",
-              variant: "caution",
+              text: "已完成",
+              variant: "success",
             },
           },
           {
@@ -28,7 +28,7 @@ export default defineConfig({
             icon: "information",
             items: Array.from({ length: 15 }, (_, i) => `shu/${i + 1}`),
             badge: {
-              text: "完成",
+              text: "已完成",
               variant: "success",
             },
           },
@@ -36,10 +36,10 @@ export default defineConfig({
             label: "吴书",
             link: "/wu/",
             icon: "information",
-            items: Array.from({ length: 2 }, (_, i) => `wu/${i + 1}`),
+            items: Array.from({ length: 20 }, (_, i) => `wu/${i + 1}`),
             badge: {
-              text: "更新中",
-              variant: "caution",
+              text: "已完成",
+              variant: "success",
             },
           },
         ]),
