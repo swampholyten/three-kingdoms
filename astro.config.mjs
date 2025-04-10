@@ -17,30 +17,30 @@ export default defineConfig({
             link: "/wei/",
             icon: "open-book",
             items: Array.from({ length: 30 }, (_, i) => `wei/${i + 1}`),
-            badge: {
-              text: "已完成",
-              variant: "success",
-            },
+            // badge: {
+            //   text: "已完成",
+            //   variant: "success",
+            // },
           },
           {
             label: "蜀书",
             link: "/shu/",
-            icon: "information",
+            icon: "rocket",
             items: Array.from({ length: 15 }, (_, i) => `shu/${i + 1}`),
-            badge: {
-              text: "已完成",
-              variant: "success",
-            },
+            // badge: {
+            //   text: "已完成",
+            //   variant: "success",
+            // },
           },
           {
             label: "吴书",
             link: "/wu/",
-            icon: "information",
+            icon: "document",
             items: Array.from({ length: 20 }, (_, i) => `wu/${i + 1}`),
-            badge: {
-              text: "已完成",
-              variant: "success",
-            },
+            // badge: {
+            //   text: "已完成",
+            //   variant: "success",
+            // },
           },
         ]),
       ],
