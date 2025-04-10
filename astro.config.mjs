@@ -5,6 +5,7 @@ import starlightSidebarTopics from "starlight-sidebar-topics";
 import starlightThemeRapidePlugin from "starlight-theme-rapide";
 
 export default defineConfig({
+  site: "https://three-kingdoms.vercel.app",
   integrations: [
     starlight({
       customCss: ["@/styles/global.css"],
